@@ -1,0 +1,101 @@
+.banner {
+  background-image: url("/assets/images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 80vh;
+  padding-left: 200px;
+  @include media-breakpoint-down(md) {
+    background-image: url("/assets/images/banner-sm.png");
+    padding-left: 24px;
+  }
+}
+.banner-co-branded {
+  background-image: url("/assets/images/banner-co-branded.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0px;
+  position: relative;
+  @include media-breakpoint-down(md) {
+    padding: 64px 0px;
+    overflow: hidden;
+  }
+  .star {
+    position: absolute;
+    width: 48px;
+    top: 68px;
+    left: calc(50% - 280px);
+    @include media-breakpoint-down(md) {
+      top: 32px;
+      left: -20px;
+    }
+  }
+  .sparkle {
+    position: absolute;
+    width: 76px;
+    bottom: 132px;
+    right: calc(50% - 280px);
+    @include media-breakpoint-down(md) {
+      bottom: 104px;
+      right: -28px;
+    }
+  }
+}
+
+.shop-urbn {
+  background-image: url("/assets/images/product-6.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, .4);
+  background-blend-mode: multiply;
+  height: 306px;
+  @include media-breakpoint-down(md) {
+    height: 169.5px;
+  }
+}
+.shop-streetmode {
+  background-image: url("/assets/images/product.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, .4);
+  background-blend-mode: multiply;
+  height: 306px;
+  @include media-breakpoint-down(md) {
+    height: 169.5px;
+  }
+}
+.shop-chunk {
+  background-image: url("/assets/images/product-4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, .4);
+  background-blend-mode: multiply;
+  height: 306px;
+  @include media-breakpoint-down(md) {
+    height: 169.5px;
+  }
+}
+.shop-collab {
+  background-image: url("/assets/images/product-10.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, .4);
+  background-blend-mode: multiply;
+  height: 306px;
+  @include media-breakpoint-down(md) {
+    height: 169.5px;
+  }
+}
+.mySwiper2 .swiper-slide {
+  width: 300px;
+  flex-shrink: 0;
+  margin-right: 16px !important;
+}
+.inspirationImg {
+  height: 300px;
+}

@@ -1,0 +1,74 @@
+.loginImg {
+  background-image: url("/assets/images/banner-sm.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 589px;
+  @include media-breakpoint-down(md) {
+    height: 240px;
+  }
+}
+.bannerTitle {
+  margin-bottom: 15px;
+  padding-top: 71px;
+  padding-left: 40px;
+  @include media-breakpoint-down(md) {
+    margin-bottom: 9px;
+    padding-top: 24px;
+    padding-left: 24px;
+  }
+}
+.loginBg {
+  background-image: url("/assets/images/login-bg.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 589px;
+  @include media-breakpoint-down(md) {
+    background:none;
+    height: auto;
+  }
+}
+.loginBtn,
+.signupBtn {
+  border: none;
+  border-radius: 0px;
+  color: $neutral-600;
+  border-bottom: 2px solid $neutral-300;
+}
+.loginChangeBorder:hover,
+.signupChangeBorder:hover{
+  border-bottom: 2px solid $neutral-900;
+  color: $neutral-900;
+  font-weight: bold;
+}
+.loginChangeBorder:focus, 
+.signupChangeBorder:focus{
+  border-bottom: 2px solid $neutral-900;
+  color: $neutral-900;
+  font-weight: bold;
+}
+.fb-icon {
+  background-image: url("/assets/images/facebook.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+.apple-icon {
+  background-image: url("/assets/images/apple.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+.google-icon {
+  background-image: url("/assets/images/google.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}

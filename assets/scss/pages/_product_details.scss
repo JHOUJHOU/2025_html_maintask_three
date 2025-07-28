@@ -1,0 +1,71 @@
+.product-colorSelect-img {
+  width: 64px;
+  height: 64px;
+}
+.product-size {
+  width: 160px;
+  border-radius: 8px;
+  background: #FFFFFF;
+  border: 1px solid #DEE2E6;
+  &:hover {
+    border: 1px solid #6C757D;
+  }
+  &:focus {
+    border: 1px solid #212529;
+  }
+}
+.productCheck-w {
+  width: 50%;
+  @include media-breakpoint-down(md) {
+    width: 25%;
+  }
+}
+.productCheckBtn {
+  background: #fff;
+  border: 1px solid #212529;
+  @include media-breakpoint-down(md) {
+    border: none;
+  }
+}
+.productCheckBtn:hover {
+  background: #212529;
+  color: #fff;
+  @include media-breakpoint-down(md) {
+    background: #fff;
+    color: #212529;
+  }
+}
+.productCheckBtn.active .productCheckBtnIcon svg {
+  fill: #212529 !important; 
+}
+.productCheckBtn.active:hover .productCheckBtnIcon svg {
+  fill: #fff !important;
+  @include media-breakpoint-down(md) {
+    fill: #212529 !important;
+  }
+}
+.productOrder-w {
+  width: 50%;
+  @include media-breakpoint-down(md) {
+    width: 75%;
+  }
+}
+.productCheckOrderBtn {
+  background: #212529;
+  color: #FFFFFF;
+}
+.productCheckOrderBtn:hover {
+  background: #FFFFFF;
+  color: #212529;
+  border: 1px solid #212529;
+}
+.productCheckOrderBtn:active {
+  background: #FFFFFF;
+  color: #212529;
+}
+.productCheckOrderBtn:active .productCheckOrderBtnIcon svg {
+  fill: #fff !important; 
+}
+.productCheckOrderBtn:active:hover .productCheckOrderBtnIcon svg {
+  fill: #212529 !important;
+}

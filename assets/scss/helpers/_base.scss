@@ -1,0 +1,34 @@
+py*,*:before,*:after {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: #212529;
+}
+img {
+	max-width: 100%;
+	height: auto;
+  vertical-align: middle;
+}
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: $font-weight-medium;
+	font-size: $font-size-base;
+	letter-spacing: 0.05em;
+	line-height: $line-height-base;
+  color: #212529;
+}
+
+.py-h1 {
+	padding: 7px 0px;
+	@include media-breakpoint-down(md) {
+    padding: 9.5px 0px;
+  }
+}
+.page-10 {
+	padding: 10px 10px;
+}
+.px-15-5 {
+	padding-left: 15.5px;
+	padding-right: 15.5px;
+}

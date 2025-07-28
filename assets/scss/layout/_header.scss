@@ -1,0 +1,20 @@
+.logo {
+  position: relative;
+  z-index: 2;
+}
+.logo-circle {
+  background: #C0FA73;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: absolute;
+  top: 6px;
+  right: 12px;
+  z-index: -1;
+  @include media-breakpoint-down(md) {
+    left: 117px;
+  }
+}
+.menu-item:hover {
+  color: $primary;
+}
