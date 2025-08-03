@@ -1,0 +1,17 @@
+
+.py-h1 {
+	padding: 7px 0px;
+	@include media-breakpoint-down(md) {
+    padding: 9.5px 0px;
+  }
+}
+.page-10 {
+	padding: 10px 10px;
+}
+.px-15-5 {
+	padding-left: 15.5px;
+	padding-right: 15.5px;
+}
+.collect-fs-family {
+  font-family: "Poppins", sans-serif;
+}

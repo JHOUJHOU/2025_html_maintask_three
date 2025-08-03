@@ -36,14 +36,12 @@
   color: $neutral-600;
   border-bottom: 2px solid $neutral-300;
 }
-.loginChangeBorder:hover,
-.signupChangeBorder:hover{
+.loginChangeBorder {
   border-bottom: 2px solid $neutral-900;
   color: $neutral-900;
   font-weight: bold;
 }
-.loginChangeBorder:focus, 
-.signupChangeBorder:focus{
+.signupChangeBorder {
   border-bottom: 2px solid $neutral-900;
   color: $neutral-900;
   font-weight: bold;

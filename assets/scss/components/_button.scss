@@ -1,0 +1,22 @@
+.btn-buy-status:hover {
+	color: $primary-500;
+}
+.btn-buy-status:focus {
+	color: $primary-500;
+	box-shadow: 0px 0px 0px 3px rgba($color: #C0FA7366, $alpha: 0.4);
+}
+.btn-buy-status:disabled {
+	opacity: 0.4;
+	cursor: default;
+}
+.btn-black-status:hover {
+	background: #495057;
+}
+.btn-black-status:focus {
+	background: #495057;
+	box-shadow: 0px 0px 0px 3px rgba($color: #2125291A, $alpha: 0.1);
+}
+.btn-black-status:disabled {
+	opacity: 0.4;
+	cursor: default;
+}
